@@ -1,0 +1,121 @@
+.blog{
+	&__list{
+		flex: 0 1 96%;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		@media (max-width: 1300px){
+		justify-content: center;
+		}
+	}
+	&__content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 50px;
+		@media (max-width: 1300px){
+			flex-wrap: wrap;
+		}
+	}
+
+}
+
+
+.item-blog{
+	flex: 0 1 20%;
+	padding: 16px;
+	background: rgba(255, 255, 255, 0.02);
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	border-radius: 16px;
+	transition: all 0.3s ease 0s;
+	@media (max-width: 1300px){
+		flex: 1 1 30%;
+	}
+	@media (max-width: 991.98px){
+		flex: 1 1 auto;
+	}
+	&__img{
+		position: relative;
+	}
+	&__content-img{
+		border-radius: 16px 16px 0px 0px;
+		width: 350px;
+		@media (max-width: 991.98px){
+			width: 100%;
+		}
+	}
+	&__category{
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		padding: 8px 12px;
+		background: #0FAE96;
+		border-radius: 60px;
+		color: #ECF1F0;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	&__group{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		position: absolute;
+		bottom: 16px;
+		left: 16px;
+	}
+	&__date{
+		padding: 7px 12px;
+		background: rgba(255, 255, 255, 0.1);
+		border: 0.5px solid rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(50px);
+		border-radius: 100px;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 150%;
+		color: #ECF1F0;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+	&__views{
+		padding: 7px 12px;
+		background: rgba(255, 255, 255, 0.1);
+		border: 0.5px solid rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(50px);
+		border-radius: 100px;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 150%;
+		color: #ECF1F0;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+	& h2{
+		margin: 16px 0;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 29px;
+		color: #ECF1F0;
+		@media (max-width: 479.98px){
+			font-size: 21px;
+			line-height: 25px;
+		}
+	}
+	& p{
+		font-size: 17px;
+		line-height: 21px;
+		color: #D4D4D4;
+	}
+	@media (min-width: 991.98px){
+		&:hover{
+			background: rgba(255, 255, 255, 0.05);
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+			transform: translateY(-10px);
+		}
+	}
+}
