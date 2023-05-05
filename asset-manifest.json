@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-trustcrypt/static/css/main.0c2db4d4.css",
+    "main.css": "/react-trustcrypt/static/css/main.17e3f58e.css",
     "main.js": "/react-trustcrypt/static/js/main.0eb3c27c.js",
     "static/media/bg.png": "/react-trustcrypt/static/media/bg.e5a0d15fe4ae4c7a450f.png",
     "index.html": "/react-trustcrypt/index.html",
-    "main.0c2db4d4.css.map": "/react-trustcrypt/static/css/main.0c2db4d4.css.map",
+    "main.17e3f58e.css.map": "/react-trustcrypt/static/css/main.17e3f58e.css.map",
     "main.0eb3c27c.js.map": "/react-trustcrypt/static/js/main.0eb3c27c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c2db4d4.css",
+    "static/css/main.17e3f58e.css",
     "static/js/main.0eb3c27c.js"
   ]
 }
